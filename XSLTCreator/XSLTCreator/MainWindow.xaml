@@ -1,0 +1,15 @@
+﻿<Window x:Class="XSLTCreator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Xslt Creator" Height="421.053" Width="860.526"   AllowDrop="True"  Drop="Window_Drop">
+    <Grid Margin="0,10,2,2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="226*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="XLSView" Margin="10,85,49,21"  RenderTransformOrigin="0.5,0.5" CanUserAddRows="False">
+
+        </DataGrid>
+        <Button Content="GetMappingColumms" HorizontalAlignment="Left" Margin="317,23,0,0" VerticalAlignment="Top" Width="169" Height="29" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
