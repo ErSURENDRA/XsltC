@@ -1,9 +1,0 @@
-﻿<Window x:Class="XSLTCreator.MappingWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MappingWindow" Height="322.556" Width="774.812" AllowDrop="True"  Drop="Window_Drop">
-    <Grid>
-        <DataGrid x:Name="NeededColumns" HorizontalAlignment="Left" Margin="28,45,0,0" VerticalAlignment="Top" Height="223" Width="530"  />
-
-    </Grid>
-</Window>
