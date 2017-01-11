@@ -1,1 +1,1 @@
-surendra bisht was the author.
+surendra bisht was the author of this code.
